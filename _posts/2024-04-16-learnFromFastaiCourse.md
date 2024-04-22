@@ -1,4 +1,4 @@
-# My Fastai Learning
+# My AI Learning (from fastai course)
 
 Here's the table of contents:
 
