@@ -4,4 +4,6 @@ Hello and welcome to this blog. Edit the `index.md` file to change this content.
 
 ## This is a title
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+The blog was created by fast template from [fast.ai](https://github.com/fastai/fast_template)
+
+[homepage of fast.ai](https://www.fast.ai). 
