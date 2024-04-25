@@ -22,5 +22,13 @@ For the GPU part, the comparison of batch size is based on a GPU with 8GB of mem
 ## Question 4
 
 The learning of **t-SNE** cost me much time, but I cannot finish it due to my foolishness. From tuitions on webs, drawing t-SNE needs embedding, I haven't understand *data format* in fastai, which led to my failure. My lack of programming experience makes it impossible to complete drawing tasks.
-
+```
+dls = DataBlock(
+    blocks=(ImageBlock, CategoryBlock), 
+    get_items=get_image_files, 
+    splitter=RandomSplitter(valid_pct=0.2, seed=42),
+    get_y=parent_label,
+    item_tfms=[Resize(192, method='squish')]
+ ).dataloaders(path)
+```
 
