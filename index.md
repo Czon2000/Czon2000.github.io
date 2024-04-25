@@ -1,5 +1,6 @@
 
 ![Image of fast.ai logo](images/logo.png)
+<img src="images/I.png" width = "250" height = "280" alt="I" />
 
 ## Hello! This is my first blog
 
